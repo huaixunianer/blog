@@ -1,4 +1,4 @@
-# latte and cat
+# wangyue
 
 > study programs and record life
 
@@ -9,8 +9,8 @@
 编写博客时添加标签、日期和分类
 ```
 ---
-title: xxxxxxxxxxxxx
-date: xxxx-xx-xx
+title: 望月的研习室
+date: 2022.10.14
 sidebar: auto
 tags:
  - xxx
@@ -18,7 +18,3 @@ categories:
  - xxx
 ---
 ```
-
-# dev
-
-需要拉取reco主题代码到.vuepress/theme
