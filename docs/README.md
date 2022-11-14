@@ -2,7 +2,7 @@
 home: true
 bgImage: '/moonBg.jpg'
 bgImageStyle: {
-  height: '400px',
+  height: '360px',
 }
 isShowTitleInHome: false
 ---
