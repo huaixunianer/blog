@@ -1,6 +1,6 @@
 module.exports = {
   base:'/blog/',//github地址
-  dest: './build',// 输出目录
+  // dest: './build',// 输出目录
   theme: 'reco',
   title: '望月的研习室',
   description: 'study programs and record life',
