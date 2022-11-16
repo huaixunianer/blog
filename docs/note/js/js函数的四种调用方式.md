@@ -118,7 +118,7 @@ let s1 = new p.say()
   - [JavaScript 中 apply 、call 的详解](https://github.com/lin-xin/blog/issues/7)
   ```javascript
   // bind方法放在函数的原型中
-  Function.prototype.bind = function () {
+  Function.prototype.bind = function(){
     var self = this,                    // 保存原函数即fn
     context = [].shift.call(arguments), // 保存需要绑定的this上下文
     args = [].slice.call(arguments);    // 剩余的参数转为数组

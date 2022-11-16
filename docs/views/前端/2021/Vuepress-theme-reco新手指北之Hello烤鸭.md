@@ -4,7 +4,6 @@ date: 2021-08-21
 sidebar: auto
 tags: 
  - vuepress
- - vuepress-theme-reco
 categories:
  - 前端
 sticky: 2
