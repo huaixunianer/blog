@@ -84,7 +84,7 @@ module.exports = {
     logo:'/photo.jpg',
     authorAvatar: '/photo.jpg',
     // 项目开始时间
-    startYear: '2022',
+    // startYear: '2022',
   },
   locales: {
     '/': {
@@ -92,7 +92,8 @@ module.exports = {
     }
   },
   markdown: {
-    lineNumbers: true
+    lineNumbers: true,
+    extractHeaders: [ 'h2', 'h3', 'h4','h5' ]
   },
   plugins: [
     [
