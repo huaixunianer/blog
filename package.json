@@ -1,5 +1,5 @@
 {
-  "author": "zsw",
+  "author": "望月",
   "description": "",
   "main": "index.js",
   "directories": {
@@ -16,8 +16,8 @@
     "vuepress-theme-reco": "^1.6.6"
   },
   "scripts": {
-    "dev": "vuepress dev docs",
-    "docs:build": "vuepress build docs",
+    "docs:dev": "SET NODE_OPTIONS=--openssl-legacy-provider && vuepress dev docs",
+    "docs:build": "SET NODE_OPTIONS=--openssl-legacy-provider && vuepress build docs",
     "test": "echo \"Error: no test specified\" && exit 1",
     "deploy": "gh-pages -d build"
   }
