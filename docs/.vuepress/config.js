@@ -44,7 +44,7 @@ module.exports = {
     sidebarDepth: 1,
     displayAllHeaders: false,
     sidebar: {
-      '/note/': [
+      'note/': [
         {
           title: 'HTML5',
           collapsable: true,
